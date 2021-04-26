@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#202125</color>
+    <color name="colorPrimaryDark">#2e2f33</color>
+    <color name="colorAccent">#ffb703</color>
+    <color name="colorText">#ffffff</color>
+    <color name="colorTextHint">#939393</color>
+    <color name="colorIcons">#a2a2a2</color>
+    <color name="colorBottomAppBar">#85323339</color>
+    <color name="colorRed">#ff0033</color>
+    <color name="colorNoteRipple">#33ffffff</color>
+    <color name="colorNoteDefault">#202125</color>
+    <color name="colorNotebook">#3e3e3e</color>
+    <color name="colorNotebookText">#ffffff</color>
+    <color name="colorNotebookBorder">#4a4a4a</color>
+    <color name="colorNotebookSelected">#ffffff</color>
+    <color name="colorNotebookSelectedText">#000000</color>
+    <color name="colorNotebookSelectedBorder">#ffffff</color>
+    <color name="colorNotebookRipple">#33ffffff</color>
+</resources>

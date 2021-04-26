@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:id="@+id/settings_back_btn"
+        android:layout_width="@dimen/_20sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:src="@drawable/ic_arrow_back"
+        app:tint="@color/colorIcons"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:contentDescription="@string/back" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_20sdp"
+        android:text="@string/settings"
+        android:fontFamily="@font/opensans_bold"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/_13ssp"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@id/settings_back_btn"
+        app:layout_constraintTop_toTopOf="@id/settings_back_btn" />
+
+    <FrameLayout
+        android:id="@+id/settings_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="@dimen/_10sdp"
+        app:layout_constraintTop_toBottomOf="@id/settings_back_btn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
